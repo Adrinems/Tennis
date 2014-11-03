@@ -2,7 +2,7 @@
 
 pip install -r requirements.txt
 autopep8 -ir .
-flake8 --max-complexity=3 --exclude=*.txt,*.md --max-line-length=200 .
+flake8 --max-complexity=12 --exclude=*.txt,*.md --max-line-length=200 .
 
 cd UnitTest
 python TestTennis.py -v
